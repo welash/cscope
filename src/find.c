@@ -173,6 +173,9 @@ find_symbol_or_assignment(char *pattern, BOOL assign_flag)
 	char firstchar;		/* first character of a potential symbol */
 	BOOL fcndef = NO;
 
+	/* Need to set the marker character to something other than \0 */
+	setmark('\n');
+
 	if ((invertedindex == YES) && (assign_flag == NO)) {
 		long	lastline = 0;
 		POSTING *p;
