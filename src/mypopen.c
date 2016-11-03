@@ -52,7 +52,7 @@
 # include <io.h>		/* for setmode() */
 #endif
 
-static char const rcsid[] = "$Id: mypopen.c,v 1.14 2006/04/21 10:40:29 broeker Exp $";
+static char const rcsid[] = "$Id: mypopen.c,v 1.15 2014/11/20 21:12:54 broeker Exp $";
 
 static pid_t popen_pid[20];
 static void (*tstat)(int);

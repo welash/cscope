@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/* $Id: global.h,v 1.38 2012/03/05 19:28:13 nhorman Exp $ */
+/* $Id: global.h,v 1.39 2014/11/20 21:12:54 broeker Exp $ */
 
 /*	cscope - interactive C symbol cross-reference
  *

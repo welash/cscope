@@ -45,7 +45,7 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-static char const rcsid[] = "$Id: crossref.c,v 1.15 2009/08/28 14:28:27 nhorman Exp $";
+static char const rcsid[] = "$Id: crossref.c,v 1.16 2014/11/20 21:12:54 broeker Exp $";
 
 
 /* convert long to a string in base BASE notation */

@@ -56,7 +56,7 @@
 #define	FMTVERSION	1	/* inverted index format version */
 #define	ZIPFSIZE	200	/* zipf curve size */
 
-static char const rcsid[] = "$Id: invlib.c,v 1.21 2012/07/10 20:01:40 nhorman Exp $";
+static char const rcsid[] = "$Id: invlib.c,v 1.22 2014/11/20 21:12:54 broeker Exp $";
 
 #if DEBUG
 /* FIXME HBB 20010705: nowhere in the source is `invbreak' ever set to

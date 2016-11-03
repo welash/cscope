@@ -47,7 +47,7 @@
 #endif
 #include <ctype.h>
 
-static char const rcsid[] = "$Id: command.c,v 1.36 2012/05/20 13:58:53 broeker Exp $";
+static char const rcsid[] = "$Id: command.c,v 1.37 2014/11/20 21:12:54 broeker Exp $";
 
 
 int	selecting;

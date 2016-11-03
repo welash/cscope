@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/* $Id: version.h,v 1.11 2012/08/04 15:39:27 broeker Exp $ */
+/* $Id: version.h,v 1.12 2015/03/30 23:54:40 broeker Exp $ */
 
 /*	cscope - interactive C symbol cross-reference
  *

@@ -39,7 +39,7 @@
 
 #include "alloc.h"
 
-static char const rcsid[] = "$Id: history.c,v 1.2 2000/05/03 22:02:10 petr Exp $";
+static char const rcsid[] = "$Id: history.c,v 1.3 2006/07/23 20:59:20 broeker Exp $";
 
 static	struct cmd *tail, *current;
 

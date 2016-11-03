@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-static char const rcsid[] = "$Id: mygetenv.c,v 1.2 2000/05/03 22:02:10 petr Exp $";
+static char const rcsid[] = "$Id: mygetenv.c,v 1.3 2001/07/05 16:47:04 broeker Exp $";
 
 #include "library.h"
 

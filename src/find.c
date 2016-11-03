@@ -48,7 +48,7 @@
 #endif
 #include <regex.h>
 
-static char const rcsid[] = "$Id: find.c,v 1.26 2014/04/15 16:12:15 nhorman Exp $";
+static char const rcsid[] = "$Id: find.c,v 1.27 2014/11/20 21:12:54 broeker Exp $";
 
 /* most of these functions have been optimized so their innermost loops have
  * only one test for the desired character by putting the char and 
