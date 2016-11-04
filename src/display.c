@@ -427,6 +427,7 @@ search(void)
 	}
 	searchcount = 0;
 	savesig = signal(SIGINT, jumpback);
+        noraw(); /* allow ctrl-c to interrupt search */
 	if (sigsetjmp(env, 1) == 0) {
 		f = fields[field].findfcn;
 		if (f == findregexp || f == findstring) {
@@ -457,6 +458,7 @@ search(void)
 			(void) fclose(nonglobalrefs);
 		}
 	}
+        raw(); /* return to raw mode */
 	signal(SIGINT, savesig);
 
 	/* rewind the cross-reference file */
